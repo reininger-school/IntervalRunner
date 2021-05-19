@@ -1,11 +1,21 @@
 <h1>IntervalRunner</h1>
 <p>
-IntervalRunner helps athletes plan, complete, and record workouts. The primary focus is on interval training, where users must complete an activity in a specified interval. I have yet to find an app that offers the customization I want for these intervals. For example, I may want an interval to expire after a period of time, and the next interval to expire after walking or running a certain distance or reaching a specific location.
+IntervalRunner helps athletes plan, complete, and record workouts. The primary focus is on interval training, where users must complete an objective in a specified interval. For example, I may want one interval to expire after a period of time, the next to expire after moving a certain distance, and the next after  reaching a specific location. IntervalRunner allows this customization.
 </p>
+<p>
+ The conceptual model of this app is different from most other interval workout apps in that it does not make any assumptions about the users workout other than they want to create a string of sequential intervals. There are no preconcieved notions of workout and rest intervals. If the user wants these, they simply create intervals labeled "workout" and "rest" and set them to expire when the desired objective is achieved.
+</p>
+<h2>Screenshots</h2>
+<div>
+  <img src="screenshots/Simulator Screen Shot - iPhone 12 - 2021-05-18 at 19.25.50.png" width="200">
+  <img src="screenshots/Simulator Screen Shot - iPhone 12 - 2021-05-18 at 19.29.57.png" width="200">
+  <img src="screenshots/Simulator Screen Shot - iPhone 12 - 2021-05-18 at 19.30.26.png" width="200">
+  <img src="screenshots/Simulator Screen Shot - iPhone 12 - 2021-05-18 at 19.31.11.png" width="200">
+</div>
 
 <h2>Build</h2>
 <p>
-Open and run in Xcode on macOS. Recommended to run on simulator using iPhone 11 or 12.
+Open and run in Xcode on macOS. It is recommended to run on simulator using iPhone 11 or 12.
 </p>
 
 <h2>Use Documentation</h2>
@@ -38,13 +48,12 @@ The HistoryTableView displays all recorded workout histories and is persisted in
 
 <h2>Demonstrated Skills</h2>
 <ul>
-  <li>Persisting data with Core Data</li>
+  <li>Persisting info with Core Data</li>
   <li>Accessing sensor data</li>
   <li>Sending notifications</li>
-  <li>Tracing routes and placing pins on a mapKitView</li>
+  <li>Tracing routes and placing pins on a MapView</li>
   <li>Using segues</li>
-  <li>Using dynamic tableViews with various prototype cells</li>
-  <li>Using and displaying info on a mapView</li>
+  <li>Using dynamic tables with custom prototype cells</li>
   <li>Using timers</li>
   <li>Updating UI elements</li>
 </ul>
