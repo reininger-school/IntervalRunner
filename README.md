@@ -1,6 +1,6 @@
 <h1>IntervalRunner</h1>
 <p>
-IntervalRunner helps athletes plan, complete, and record workouts. The primary focus is on interval training, where users must complete an objective in a specified interval. For example, I may want one interval to expire after a period of time, the next to expire after moving a certain distance, and the next after  reaching a specific location. IntervalRunner allows this customization.
+IntervalRunner is an iOS app to help athletes plan, complete, and record workouts. The primary focus is on interval training, where users must complete an objective in a specified interval. For example, I may want one interval to expire after a period of time, the next to expire after moving a certain distance, and the next after  reaching a specific location. IntervalRunner allows this customization.
 </p>
 <p>
  The conceptual model of this app is different from most other interval workout apps in that it does not make any assumptions about the users workout other than they want to create a string of sequential intervals. There are no preconcieved notions of workout and rest intervals. If the user wants these, they simply create intervals labeled "workout" and "rest" and set them to expire when the desired objective is achieved.
